@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+body{
+    background-image: url("gallery/bg.jpg");
+}
+.jumbotron{
+    padding: 2rem 2rem;
+}
+.logo{
+    width: 92px;
+}
+.selected{
+    color: gold;
+    font-style: bold;
+}
+.nav-link:hover{
+    font-size: 24px;
+    color: gold;
+}
+.title{
+    font-family: "Nunito";
+    font-size: 30px;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.container2{
+}
+.row2{
+    background-color: rgb(212, 191, 191);
+}
+.subtitle{
+    font-family: "Montserrat";
+    text-align: center;
+    font-style: bold;
+    margin-top: 20px;
+    text-shadow: 5px 5px 5px grey;
+}
+.text{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gallery {
+    margin-top: 10%;
+    display: flex;
+}
+.card {
+    flex-grow: 2;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 10%;
+    border-radius: 10px;
+}
+.card:hover {
+    box-shadow: 0px 0px 20px black;
+    font-size: 24px;
+}
+.card img {
+    border-radius: 10px 10px 0px 0px;
+}
+.card img:hover {
+    transform: scale(2);
+    padding-bottom: 0px;
+    transition: 2s;
+}
+.cardplot {   
+    padding: 10px 16px;
+}
+.cardtitle {
+    font-weight: bold;
+    font-size: 1vw;
+}
+.row{
+    margin: 50;
+    display: flex;
+}
+.photo {
+    flex-grow: 2;
+    width: 10%;
+    transition: 0.3s;
+}
+.photo img {
+    height: 128px;
+    width: 128px;
+}
+.photo img:hover{
+    transform: scale(4);
+    transition: 2s;
+}
+.phototext{
+    margin-top: 85%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.podnozje {
+    text-align: center;
+    width: 100%;
+}
+.mail{
+color: white;
+font-size: 18px;
+
+}
